@@ -1,0 +1,74 @@
+﻿## 统一约定
+1. 所有API均采用RESTful架构设计，请注意使用的HTTP方法
+2. request/response字符编码统一采用UTF8编码
+3. 为方便描述，接口地中的{英文字母}为参数占位符
+4. 所有API返回结果均为JSON格式，其通用字段如下：
+		{
+			"errCode": 1,
+			"errMsg": "失败时的错误消息",
+			"data": {
+				//成功时的返回数据
+				…
+			}
+		}
+5. API返回结果中的errCode，100及以上特定接口有的特定涵义，100以下为通用错误码，定义如下：
+
+errCode	|	说明
+-------	|	----------
+0		|	接口调用成功或执行成功				
+1		|	未知错误						
+2		|	接口调用失败或执行失败			
+3		|	接口调用失败（传入接口参数有错误）
+4		|	接口调用失败（服务器内部有错误）
+5		|	接口调用失败（未授权）
+
+
+# 快速入门
+## 上传文件
+
+首先调用上传文件接口，成功会返回如下格式的JSON：
+```javascript
+{
+  "data": {
+    ...
+    "url": "http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA--",
+    ...
+  },
+  "errCode": 0
+}
+```
+url字段为文件根地址（用法稍后有说明）
+
+
+## 下载文件
+
+文件根地址不可直接访问，需要拼接URL后才能访问，不同拼接方法有不同的作用。
+下面举例说明：
+
+### 下载原文件
+文件根地址/raw，例如：
+http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA--/raw
+
+### 下载128x128大小的缩略图（原文件是图像）
+文件根地址/image/128x128，例如：
+http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA--/image/128x128
+
+### 下载128宽，高等比缩放的缩略图（原文件是图像）
+文件根地址/image/128x，例如：
+http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA--/image/128x
+
+### 原图是JPG格式，下载png格式的图像
+文件根地址/image/raw_png，例如：
+http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA--/image/raw_png
+
+### 原图是JPG格式，下载png格式的128x128大小的缩略像
+文件根地址/image/128x128_png，例如：
+http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA--/image/128x128_png
+
+以上只是基本用法的简单举例，具体支持的高级用法请查看在线文档【GET /files/handlers/{name} 获取指定文件处理器支持的转换修饰符信息】部分
+
+
+## 使用建议
+
+* 对于图像由于客户端屏幕分辨率、网络环境等差异，实际需要显示的大小也不同，建议客户端自行选择合适的大小拼接后缀。
+  例如：产品列表页显示产品缩略图时只需要拼接合适大小的缩略图即可，而不必请求原图，原图通常比较大，浪费流量同时也增加加载时间。

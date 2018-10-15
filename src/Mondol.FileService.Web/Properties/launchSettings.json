@@ -1,0 +1,29 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:2910/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "docs/apis",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Mondol.FileService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5001/docs/apis/",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "http://localhost:5001",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

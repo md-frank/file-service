@@ -1,0 +1,29 @@
+{
+  "ImageSizes": [
+    {
+      "Name": "32x32",
+      "Width": 32,
+      "Height": 32
+    },
+    {
+      "Name": "64x64",
+      "Width": 64,
+      "Height": 64
+    },
+    {
+      "Name": "128x128",
+      "Width": 128,
+      "Height": 128
+    },
+    {
+      "Name": "256x",
+      "Width": 256,
+      "Height": 0
+    },
+    {
+      "Name": "450x",
+      "Width": 450,
+      "Height": 0
+    }    
+  ]
+}

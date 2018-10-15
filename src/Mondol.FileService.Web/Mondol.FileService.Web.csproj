@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RuntimeIdentifiers>linux-x64;win-x64</RuntimeIdentifiers>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\Mondol.FileService.Web.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.0\Mondol.FileService.Web.xml</DocumentationFile>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Swagger\DocDesc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.1.1" />
+    <PackageReference Include="Mondol" Version="6.0.1" />
+    <PackageReference Include="Mondol.AutoReview.AspNetCore" Version="1.0.1" />
+    <PackageReference Include="Mondol.Web" Version="1.0.4" />    
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
+    <PackageReference Include="Magick.NET.Core-Q8" Version="7.0.5.502" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.2.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Swagger\DocDesc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mondol.FileService.Authorization\Mondol.FileService.Authorization.csproj" />
+    <ProjectReference Include="..\Mondol.FileService.Db\Mondol.FileService.Db.csproj" />
+    <ProjectReference Include="..\Mondol.FileService.Service\Mondol.FileService.Service.csproj" />
+  </ItemGroup>  
+
+</Project>

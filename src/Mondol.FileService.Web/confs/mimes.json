@@ -1,0 +1,512 @@
+{
+  "Mimes": [
+    {
+      "ContentType": "application/envoy",
+      "ExtensionNames": [ "evy" ]
+    },
+    {
+      "ContentType": "application/fractals",
+      "ExtensionNames": [ "fif" ]
+    },
+    {
+      "ContentType": "application/futuresplash",
+      "ExtensionNames": [ "spl" ]
+    },
+    {
+      "ContentType": "application/hta",
+      "ExtensionNames": [ "hta" ]
+    },
+    {
+      "ContentType": "application/internet-property-stream",
+      "ExtensionNames": [ "acx" ]
+    },
+    {
+      "ContentType": "application/mac-binhex40",
+      "ExtensionNames": [ "hqx" ]
+    },
+    {
+      "ContentType": "application/msword",
+      "ExtensionNames": [ "doc", "docx", "dot" ]
+    },
+    {
+      "ContentType": "application/octet-stream",
+      "ExtensionNames": [ "bin", "class", "dms", "exe", "lha", "lzh" ]
+    },
+    {
+      "ContentType": "application/oda",
+      "ExtensionNames": [ "oda" ]
+    },
+    {
+      "ContentType": "application/olescript",
+      "ExtensionNames": [ "axs" ]
+    },
+    {
+      "ContentType": "application/pdf",
+      "ExtensionNames": [ "pdf" ]
+    },
+    {
+      "ContentType": "application/pics-rules",
+      "ExtensionNames": [ "prf" ]
+    },
+    {
+      "ContentType": "application/pkcs10",
+      "ExtensionNames": [ "p10" ]
+    },
+    {
+      "ContentType": "application/pkix-crl",
+      "ExtensionNames": [ "crl" ]
+    },
+    {
+      "ContentType": "application/postscript",
+      "ExtensionNames": [ "ai", "eps", "ps" ]
+    },
+    {
+      "ContentType": "application/rtf",
+      "ExtensionNames": [ "rtf" ]
+    },
+    {
+      "ContentType": "application/set-payment-initiation",
+      "ExtensionNames": [ "setpay" ]
+    },
+    {
+      "ContentType": "application/set-registration-initiation",
+      "ExtensionNames": [ "setreg" ]
+    },
+    {
+      "ContentType": "application/vnd.ms-excel",
+      "ExtensionNames": [ "xla", "xlc", "xlm", "xls", "xlsx", "xlt", "xlw" ]
+    },
+    {
+      "ContentType": "application/vnd.ms-outlook",
+      "ExtensionNames": [ "msg" ]
+    },
+    {
+      "ContentType": "application/vnd.ms-pkicertstore",
+      "ExtensionNames": [ "sst" ]
+    },
+    {
+      "ContentType": "application/vnd.ms-pkiseccat",
+      "ExtensionNames": [ "cat" ]
+    },
+    {
+      "ContentType": "application/vnd.ms-pkistl",
+      "ExtensionNames": [ "stl" ]
+    },
+    {
+      "ContentType": "application/vnd.ms-powerpoint",
+      "ExtensionNames": [ "pot", "pps", "ppt" ]
+    },
+    {
+      "ContentType": "application/vnd.ms-project",
+      "ExtensionNames": [ "mpp" ]
+    },
+    {
+      "ContentType": "application/vnd.ms-works",
+      "ExtensionNames": [ "wcm", "wdb", "wks", "wps" ]
+    },
+    {
+      "ContentType": "application/winhlp",
+      "ExtensionNames": [ "hlp" ]
+    },
+    {
+      "ContentType": "application/x-bcpio",
+      "ExtensionNames": [ "bcpio" ]
+    },
+    {
+      "ContentType": "application/x-cdf",
+      "ExtensionNames": [ "cdf" ]
+    },
+    {
+      "ContentType": "application/x-compress",
+      "ExtensionNames": [ "z" ]
+    },
+    {
+      "ContentType": "application/x-compressed",
+      "ExtensionNames": [ "tgz" ]
+    },
+    {
+      "ContentType": "application/x-cpio",
+      "ExtensionNames": [ "cpio" ]
+    },
+    {
+      "ContentType": "application/x-csh",
+      "ExtensionNames": [ "csh" ]
+    },
+    {
+      "ContentType": "application/x-director",
+      "ExtensionNames": [ "dcr", "dir", "dxr" ]
+    },
+    {
+      "ContentType": "application/x-dvi",
+      "ExtensionNames": [ "dvi" ]
+    },
+    {
+      "ContentType": "application/x-gtar",
+      "ExtensionNames": [ "gtar" ]
+    },
+    {
+      "ContentType": "application/x-gzip",
+      "ExtensionNames": [ "gz" ]
+    },
+    {
+      "ContentType": "application/x-hdf",
+      "ExtensionNames": [ "hdf" ]
+    },
+    {
+      "ContentType": "application/x-internet-signup",
+      "ExtensionNames": [ "ins", "isp" ]
+    },
+    {
+      "ContentType": "application/x-iphone",
+      "ExtensionNames": [ "iii" ]
+    },
+    {
+      "ContentType": "application/x-javascript",
+      "ExtensionNames": [ "js" ]
+    },
+    {
+      "ContentType": "application/x-latex",
+      "ExtensionNames": [ "latex" ]
+    },
+    {
+      "ContentType": "application/x-msaccess",
+      "ExtensionNames": [ "mdb" ]
+    },
+    {
+      "ContentType": "application/x-mscardfile",
+      "ExtensionNames": [ "crd" ]
+    },
+    {
+      "ContentType": "application/x-msclip",
+      "ExtensionNames": [ "clp" ]
+    },
+    {
+      "ContentType": "application/x-msdownload",
+      "ExtensionNames": [ "dll" ]
+    },
+    {
+      "ContentType": "application/x-msmediaview",
+      "ExtensionNames": [ "m13", "m14", "mvb" ]
+    },
+    {
+      "ContentType": "application/x-msmetafile",
+      "ExtensionNames": [ "wmf" ]
+    },
+    {
+      "ContentType": "application/x-msmoney",
+      "ExtensionNames": [ "mny" ]
+    },
+    {
+      "ContentType": "application/x-mspublisher",
+      "ExtensionNames": [ "pub" ]
+    },
+    {
+      "ContentType": "application/x-msschedule",
+      "ExtensionNames": [ "scd" ]
+    },
+    {
+      "ContentType": "application/x-msterminal",
+      "ExtensionNames": [ "trm" ]
+    },
+    {
+      "ContentType": "application/x-mswrite",
+      "ExtensionNames": [ "wri" ]
+    },
+    {
+      "ContentType": "application/x-netcdf",
+      "ExtensionNames": [ "cdf", "nc" ]
+    },
+    {
+      "ContentType": "application/x-perfmon",
+      "ExtensionNames": [ "pma", "pmc", "pml", "pmr", "pmw" ]
+    },
+    {
+      "ContentType": "application/x-pkcs12",
+      "ExtensionNames": [ "p12", "pfx" ]
+    },
+    {
+      "ContentType": "application/x-pkcs7-certificates",
+      "ExtensionNames": [ "p7b", "spc" ]
+    },
+    {
+      "ContentType": "application/x-pkcs7-certreqresp",
+      "ExtensionNames": [ "p7r" ]
+    },
+    {
+      "ContentType": "application/x-pkcs7-mime",
+      "ExtensionNames": [ "p7c", "p7m" ]
+    },
+    {
+      "ContentType": "application/x-pkcs7-signature",
+      "ExtensionNames": [ "p7s" ]
+    },
+    {
+      "ContentType": "application/x-sh",
+      "ExtensionNames": [ "sh" ]
+    },
+    {
+      "ContentType": "application/x-shar",
+      "ExtensionNames": [ "shar" ]
+    },
+    {
+      "ContentType": "application/x-shockwave-flash",
+      "ExtensionNames": [ "swf" ]
+    },
+    {
+      "ContentType": "application/x-stuffit",
+      "ExtensionNames": [ "sit" ]
+    },
+    {
+      "ContentType": "application/x-sv4cpio",
+      "ExtensionNames": [ "sv4cpio" ]
+    },
+    {
+      "ContentType": "application/x-sv4crc",
+      "ExtensionNames": [ "sv4crc" ]
+    },
+    {
+      "ContentType": "application/x-tar",
+      "ExtensionNames": [ "tar" ]
+    },
+    {
+      "ContentType": "application/x-tcl",
+      "ExtensionNames": [ "tcl" ]
+    },
+    {
+      "ContentType": "application/x-tex",
+      "ExtensionNames": [ "tex" ]
+    },
+    {
+      "ContentType": "application/x-texinfo",
+      "ExtensionNames": [ "texi", "texinfo" ]
+    },
+    {
+      "ContentType": "application/x-troff",
+      "ExtensionNames": [ "roff", "t", "tr" ]
+    },
+    {
+      "ContentType": "application/x-troff-man",
+      "ExtensionNames": [ "man" ]
+    },
+    {
+      "ContentType": "application/x-troff-me",
+      "ExtensionNames": [ "me" ]
+    },
+    {
+      "ContentType": "application/x-troff-ms",
+      "ExtensionNames": [ "ms" ]
+    },
+    {
+      "ContentType": "application/x-ustar",
+      "ExtensionNames": [ "ustar" ]
+    },
+    {
+      "ContentType": "application/x-wais-source",
+      "ExtensionNames": [ "src" ]
+    },
+    {
+      "ContentType": "application/x-x509-ca-cert",
+      "ExtensionNames": [ "cer", "crt", "der" ]
+    },
+    {
+      "ContentType": "application/ynd.ms-pkipko",
+      "ExtensionNames": [ "pko" ]
+    },
+    {
+      "ContentType": "application/zip",
+      "ExtensionNames": [ "zip" ]
+    },
+    {
+      "ContentType": "audio/basic",
+      "ExtensionNames": [ "au", "snd" ]
+    },
+    {
+      "ContentType": "audio/mid",
+      "ExtensionNames": [ "mid", "rmi" ]
+    },
+    {
+      "ContentType": "audio/mpeg",
+      "ExtensionNames": [ "mp3" ]
+    },
+    {
+      "ContentType": "audio/x-aiff",
+      "ExtensionNames": [ "aif", "aifc", "aiff" ]
+    },
+    {
+      "ContentType": "audio/x-mpegurl",
+      "ExtensionNames": [ "m3u" ]
+    },
+    {
+      "ContentType": "audio/x-pn-realaudio",
+      "ExtensionNames": [ "ra", "ram" ]
+    },
+    {
+      "ContentType": "audio/x-wav",
+      "ExtensionNames": [ "wav" ]
+    },
+    {
+      "ContentType": "image/bmp",
+      "ExtensionNames": [ "bmp" ]
+    },
+    {
+      "ContentType": "image/cis-cod",
+      "ExtensionNames": [ "cod" ]
+    },
+    {
+      "ContentType": "image/gif",
+      "ExtensionNames": [ "gif" ]
+    },
+    {
+      "ContentType": "image/ief",
+      "ExtensionNames": [ "ief" ]
+    },
+    {
+      "ContentType": "image/jpeg",
+      "ExtensionNames": [ "jpg", "jpe", "jpeg" ]
+    },
+    {
+      "ContentType": "image/png",
+      "ExtensionNames": [ "png" ]
+    },
+    {
+      "ContentType": "image/pipeg",
+      "ExtensionNames": [ "jfif" ]
+    },
+    {
+      "ContentType": "image/svg+xml",
+      "ExtensionNames": [ "svg" ]
+    },
+    {
+      "ContentType": "image/tiff",
+      "ExtensionNames": [ "tif", "tiff" ]
+    },
+    {
+      "ContentType": "image/x-cmu-raster",
+      "ExtensionNames": [ "ras" ]
+    },
+    {
+      "ContentType": "image/x-cmx",
+      "ExtensionNames": [ "cmx" ]
+    },
+    {
+      "ContentType": "image/x-icon",
+      "ExtensionNames": [ "ico" ]
+    },
+    {
+      "ContentType": "image/x-portable-anymap",
+      "ExtensionNames": [ "pnm" ]
+    },
+    {
+      "ContentType": "image/x-portable-bitmap",
+      "ExtensionNames": [ "pbm" ]
+    },
+    {
+      "ContentType": "image/x-portable-graymap",
+      "ExtensionNames": [ "pgm" ]
+    },
+    {
+      "ContentType": "image/x-portable-pixmap",
+      "ExtensionNames": [ "ppm" ]
+    },
+    {
+      "ContentType": "image/x-rgb",
+      "ExtensionNames": [ "rgb" ]
+    },
+    {
+      "ContentType": "image/x-xbitmap",
+      "ExtensionNames": [ "xbm" ]
+    },
+    {
+      "ContentType": "image/x-xpixmap",
+      "ExtensionNames": [ "xpm" ]
+    },
+    {
+      "ContentType": "image/x-xwindowdump",
+      "ExtensionNames": [ "xwd" ]
+    },
+    {
+      "ContentType": "message/rfc822",
+      "ExtensionNames": [ "mht", "mhtml", "nws" ]
+    },
+    {
+      "ContentType": "text/css",
+      "ExtensionNames": [ "css" ]
+    },
+    {
+      "ContentType": "text/h323",
+      "ExtensionNames": [ "323" ]
+    },
+    {
+      "ContentType": "text/html",
+      "ExtensionNames": [ "htm", "html", "stm" ]
+    },
+    {
+      "ContentType": "text/iuls",
+      "ExtensionNames": [ "uls" ]
+    },
+    {
+      "ContentType": "text/plain",
+      "ExtensionNames": [ "bas", "c", "h", "txt" ]
+    },
+    {
+      "ContentType": "text/richtext",
+      "ExtensionNames": [ "rtx" ]
+    },
+    {
+      "ContentType": "text/scriptlet",
+      "ExtensionNames": [ "sct" ]
+    },
+    {
+      "ContentType": "text/tab-separated-values",
+      "ExtensionNames": [ "tsv" ]
+    },
+    {
+      "ContentType": "text/webviewhtml",
+      "ExtensionNames": [ "htt" ]
+    },
+    {
+      "ContentType": "text/x-component",
+      "ExtensionNames": [ "htc" ]
+    },
+    {
+      "ContentType": "text/x-setext",
+      "ExtensionNames": [ "etx" ]
+    },
+    {
+      "ContentType": "text/x-vcard",
+      "ExtensionNames": [ "vcf" ]
+    },
+    {
+      "ContentType": "video/mpeg",
+      "ExtensionNames": [ "mp2", "mpa", "mpe", "mpeg", "mpg", "mpv2" ]
+    },
+    {
+      "ContentType": "video/quicktime",
+      "ExtensionNames": [ "mov", "qt" ]
+    },
+    {
+      "ContentType": "video/x-la-asf",
+      "ExtensionNames": [ "lsf", "lsx" ]
+    },
+    {
+      "ContentType": "video/x-ms-asf",
+      "ExtensionNames": [ "asf", "asr", "asx" ]
+    },
+    {
+      "ContentType": "video/x-msvideo",
+      "ExtensionNames": [ "avi" ]
+    },
+    {
+      "ContentType": "video/x-sgi-movie",
+      "ExtensionNames": [ "movie" ]
+    },
+    {
+      "ContentType": "x-world/x-vrml",
+      "ExtensionNames": [ "flr", "vrml", "wrl", "wrz", "xaf", "xof" ]
+    },
+    {
+      "ContentType": "application/acad",
+      "ExtensionNames": [ "dwg", "dwt" ]
+    }
+  ]
+}

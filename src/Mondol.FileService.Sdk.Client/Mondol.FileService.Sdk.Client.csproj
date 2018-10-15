@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <RootNamespace>Mondol.FileService.Client</RootNamespace>
+    <Authors>Frank</Authors>
+    <Company>Mondol Studio</Company>
+    <Description>Mondol.FileService.Sdk.Client</Description>
+    <Copyright>Mondol Studio</Copyright>
+    <PackageTags>Mondol</PackageTags>
+    <Version>1.0.2</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mondol" Version="5.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.1" />
+  </ItemGroup>
+
+</Project>
