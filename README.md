@@ -83,3 +83,6 @@ http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwC
 原图是JPG格式，下载png格式的128x128大小的缩略像  
 文件根地址/image/128x128_png，例如：
 http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA/image/128x128_png
+
+## 联系方式
+Email: frank@mondol.info
