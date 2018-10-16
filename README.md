@@ -74,15 +74,15 @@ var url = updResult.Data.Url; //得到文件根地址
 
 下载128宽，高等比缩放的缩略图（原文件是图像）  
 文件根地址/image/128x，例如：
-http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA/image/128x
+`http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA/image/128x`
 
 原图是JPG格式，下载png格式的图像  
 文件根地址/image/raw_png，例如：
-http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA/image/raw_png
+`http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA/image/raw_png`
 
 原图是JPG格式，下载png格式的128x128大小的缩略像  
 文件根地址/image/128x128_png，例如：
-http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA/image/128x128_png
+`http://file.domain.com/files/1iYQTU7fEUgaa~URSVwaCqQKFml_IAAAAAgAAAAbhmsFjiUUQwCPn2ngI1QcvsSp0AA/image/128x128_png`
 
 ## 联系方式
 Email: frank@mondol.info
