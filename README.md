@@ -60,7 +60,7 @@ var url = updResult.Data.Url; //得到文件根地址
 `handler`：文件处理器，可以是image(图片处理器)、video(视频处理器)、raw(返回原文件)等  
 `modifier`：【可选】文件处理器参数，例如，image处理器，可以指定128x128_png  
 
-文件上传成功后返回的`文件根地址(updResult.Data.Url)`就是截至到https://domain.com/{fileToken}，URL后面部分由客户端自己去拼接  
+文件上传成功后返回的`文件根地址(updResult.Data.Url)`就是截至到`https://domain.com/{fileToken}` URL后面部分由客户端自己根据需求拼接  
 
 ### 下面举例说明：  
 
