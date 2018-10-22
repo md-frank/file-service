@@ -86,3 +86,4 @@ var url = updResult.Data.Url; //得到文件根地址
 
 ## 联系方式
 Email: frank@mondol.info
+cnblogs: http://mondol.cnblogs.com
